@@ -16,7 +16,22 @@ Introducing the compact Bluetooth Breakout Board, designed for enhanced audio te
 - Onboard Control Buttons: Hardware buttons for play, next, previous, and volume controls.
 
 ### Specifications:
-
+- **Module**: FSC-BT1026A Dual-mode BLE radio module
+- **Bluetooth Standard**: 5.1
+- T**ransmit Output Power**: +9 dBm (Max.)
+- **Profiles**: A2DP, AVRCP, HFP, HSP, HOGP, PBAP, SPP, GATT
+- **Frequency Band**: 2.402 ~ 2.480 GHz
+- **Bluetooth Low Energy**: 
+   - GATT Client and peripheral
+   - Simultaneous BR/EDR and BLE Support 
+- **Raw Data Rates(Air)** : 3Mbps (Classic BT - BR/EDR)
+- **Amplifier**: NS4150 3W Mono Class D Audio Amplifier
+- **Audio Outputs**:
+   - Two Channel 3W Speaker Output 
+   - Headphones (3.5mm) Support 
+- **Supply Voltage**: 5V Type C
+- **External Supply**: 4.2V DC
+- **Operating Temperature Range**: -20°C ~ +70 °C 
 
 ## Bluetooth Breakout Hardware Overview
 ### Pinout
