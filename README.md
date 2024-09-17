@@ -1,5 +1,5 @@
 # Bluetooth_Breakout_Software
-<!-- <img src="https://github.com/sbcshop/MusicPi_Software/blob/main/images/musicPi_banner.png"> -->
+<img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/main%20banner.jpg">
 
 Introducing the compact Bluetooth Breakout Board, designed for enhanced audio testing and entertainment. This versatile module serves as both an audio input and output, featuring an integrated amplifier circuit with left and right channels, delivering up to 3W per channel for crisp sound. Perfect for developers, it simplifies incorporating Bluetooth wireless technology into designs, making your workflow smoother and more efficient. Ideal for audio testing, development, and various experimental purposes.
 
@@ -35,44 +35,40 @@ Introducing the compact Bluetooth Breakout Board, designed for enhanced audio te
 
 ## Bluetooth Breakout Hardware Overview
 ### Pinout
+<img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/pinouts.jpg">
 
-<img src="">
+- **<ins>Bluetooth Module</ins>**: FSC-BT1026C Dual-Mode Module, simulatneous connect with Bluetooth Classic for high-data streaming like music, and to low-power BLE mode for efficient performance. Checkout for more details [here](https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/documents/FSC-BT1026C.pdf)
 
-<img src="https://github.com/sbcshop/MusicPi_Software/blob/main/images/musicpi_setup.png" width="583" height="357">
-
-**<ins>Bluetooth Module</ins>**: FSC-BT1026C Dual-Mode Module, simulatneous connect with Bluetooth Classic for high-data streaming like music, and to low-power BLE mode for efficient performance.
-
-**<ins>Buttons<ins>** : Onboard there are four buttons,
+- **<ins>Buttons<ins>** : Onboard there are four buttons,
    - **Power/Play/Pause** :
      - To power ON bluetooth module, play and pause songs when playing song on bluetooth mode.
      - Long Press and hold switch till PAIR LED starts blinking. This confirms module is ON and searching for device to pair with. Once device paired then PAIR LED stops blinking and stays Active.
    - **Vol+/Next** : Simple press and release for Volume increase while Long press for next song play
    - **Vol-/BACK** : Simple press and release for Volume decrease while Long press for back.
    - **RESET** : This entirely reset the module for reconnection.
-
-**<ins>Mic</ins>**: Microphone for bluetooth calling 
-**<ins>Type C Interface</ins>**: Type C interface for power and USB to UART Bluetooth module access. 
-**<ins>External Power</ins>**: Additional External power source option to connect battery in case type C not connected. Max allowed voltage is 4.2V
-
-<ins>AUX IN</ins>
-<ins>AUX OUT</ins>
-<ins>Speaker Connector</ins>
+   - **Mode Switch Button**: Push and closed switch to select Aux Mode. Release switch to move breakout in Bluetooth mode for wireless listening.
+     
+- **<ins>Mic</ins>**: Microphone for bluetooth calling or voice related operation.
+- **<ins>Type C Interface</ins>**: Type C interface for power and USB to UART Bluetooth module access. 
+- **<ins>External Power</ins>**: Additional External power source option to connect battery in case type C not connected. Max allowed voltage is 4.2V.
+- **<ins>AUX IN</ins>**: For audio input using 3.5mm Standard Jack Aux cable. Rquired 3 Pole TRS Aux pin connector for Compatibility.
+- **<ins>AUX OUT</ins>**: For audio output for standard 3.5mm Audio Jack. Rquired 3 Pole TRS Aux pin connector for Compatibility.
+- **<ins>Speaker Connector</ins>**: Two options available to connect speakers (1) 2.54" four pin header and (2) 2mm JST right and left connector
 
 #### Compatible speakers available Here:
 * [2W 6 Ohm Mono Enclosed Speaker](https://shop.sb-components.co.uk/products/2-watt-6-ohm-mini-portable-speaker-for-small-electronic-projects-2pcs)
 * [3 Watt 8 Ohm Mini Speaker](https://shop.sb-components.co.uk/products/3-watt-8-ohm-mini-speaker-full-range-portable-for-small-electronic-projects)
 * [5W 8 Ohm Dual Mini Speaker](https://shop.sb-components.co.uk/products/8-ohm-5w-speaker-ic-test-board)
 
-
 ## Bluetooth / Aux Mode
 ## BLE App 
 ## UART Data Capture via XCTU/Terminal Software
    
 ## Resources
-  * [Schematic]()
-  * [Hardware Files]()
-  * [Step File]()
-  * [Module Datasheet]()
+  * [Schematic](https://github.com/sbcshop/Bluetooth_Breakout_Hardware/blob/main/Design%20Data/SCH%20bluetooth%20bkt.pdf)
+  * [Hardware Files](https://github.com/sbcshop/Bluetooth_Breakout_Hardware)
+  * [Step File](https://github.com/sbcshop/Bluetooth_Breakout_Hardware/blob/main/Mechanical%20Data/BluetoothBreakout.step)
+  * [Bluetooth Module Datasheet](https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/documents/FSC-BT1026C.pdf)
 
 ## Related Products
 
