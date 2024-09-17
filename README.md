@@ -16,7 +16,7 @@ Introducing the compact Bluetooth Breakout Board, designed for enhanced audio te
 - Onboard Control Buttons: Hardware buttons for play, next, previous, and volume controls.
 
 ### Specifications:
-- **Module**: FSC-BT1026A Dual-mode BLE radio module
+- **Module**: FSC-BT1026C Dual-mode BLE radio module
 - **Bluetooth Standard**: 5.1
 - T**ransmit Output Power**: +9 dBm (Max.)
 - **Profiles**: A2DP, AVRCP, HFP, HSP, HOGP, PBAP, SPP, GATT
@@ -40,14 +40,23 @@ Introducing the compact Bluetooth Breakout Board, designed for enhanced audio te
 
 <img src="https://github.com/sbcshop/MusicPi_Software/blob/main/images/musicpi_setup.png" width="583" height="357">
 
-#### Bluetooth Module
-#### Buttons 
-#### Mic 
-#### External Power 
-#### Type C Interface
-#### Aux IN
-#### Aux OUT
-#### Speaker Connector
+**<ins>Bluetooth Module</ins>**: FSC-BT1026C Dual-Mode Module, simulatneous connect with Bluetooth Classic for high-data streaming like music, and to low-power BLE mode for efficient performance.
+
+**<ins>Buttons<ins>** : Onboard there are four buttons,
+   - **Power/Play/Pause** :
+     - To power ON bluetooth module, play and pause songs when playing song on bluetooth mode.
+     - Long Press and hold switch till PAIR LED starts blinking. This confirms module is ON and searching for device to pair with. Once device paired then PAIR LED stops blinking and stays Active.
+   - **Vol+/Next** : Simple press and release for Volume increase while Long press for next song play
+   - **Vol-/BACK** : Simple press and release for Volume decrease while Long press for back.
+   - **RESET** : This entirely reset the module for reconnection.
+
+**<ins>Mic</ins>**: Microphone for bluetooth calling 
+**<ins>Type C Interface</ins>**: Type C interface for power and USB to UART Bluetooth module access. 
+**<ins>External Power</ins>**: Additional External power source option to connect battery in case type C not connected. Max allowed voltage is 4.2V
+
+<ins>AUX IN</ins>
+<ins>AUX OUT</ins>
+<ins>Speaker Connector</ins>
 
 #### Compatible speakers available Here:
 * [2W 6 Ohm Mono Enclosed Speaker](https://shop.sb-components.co.uk/products/2-watt-6-ohm-mini-portable-speaker-for-small-electronic-projects-2pcs)
