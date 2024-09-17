@@ -96,9 +96,20 @@ Introducing the compact Bluetooth Breakout Board, designed for enhanced audio te
 - With this you can experiment BLE features in more details. Follow below procedure for detail view of activity with Bluetooth module and AT command usage.
   
 ## UART Data Capture via XCTU/Terminal Software
-- First download and install any serial Terminal software. Here we are using XCTU which you can download from [official site]()
-- 
-   
+- Connect bluetooth breakout to PC/laptop using Type C interface, make sure bluetooth module is power ON.
+- Now you will see device listed with COM port you can checkout in device manager, If not listed meaning CH340 driver missing. To install driver check out [CH340 Driver Installation Manual Guide](https://github.com/sbcshop/NFC_Module/blob/main/documents/CH340%20Driver%20installation%20steps.pdf).
+  
+  <img src="https://github.com/sbcshop/L76_GPS_Breakout_Software/blob/main/images/device_manager_comport.jpg" width="583" height="426">
+
+- To monitor device data you can use any serial console terminal. For demo we have used XCTU which you can download from [official site here](https://hub.digi.com/support/products/xctu/).
+
+  Select Tools > Serial console > configure
+
+  <img src="https://github.com/sbcshop/L76_GPS_Breakout_Software/blob/main/images/xctu_1.jpg" width="600" height="451">
+
+  <img src="https://github.com/sbcshop/L76_GPS_Breakout_Software/blob/main/images/xctu_1.jpg" width="600" height="451">
+  
+  
 ## Resources
   * [Schematic](https://github.com/sbcshop/Bluetooth_Breakout_Hardware/blob/main/Design%20Data/SCH%20bluetooth%20bkt.pdf)
   * [Hardware Files](https://github.com/sbcshop/Bluetooth_Breakout_Hardware)
