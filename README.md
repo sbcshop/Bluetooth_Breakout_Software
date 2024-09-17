@@ -61,8 +61,43 @@ Introducing the compact Bluetooth Breakout Board, designed for enhanced audio te
 * [5W 8 Ohm Dual Mini Speaker](https://shop.sb-components.co.uk/products/8-ohm-5w-speaker-ic-test-board)
 
 ## Bluetooth / Aux Mode
-## BLE App 
+<img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/mode.jpg">
+
+### Aux Mode
+- To activate Aux Mode, just push the Mode Switch button and lock it in the closed position.
+  
+- Now you may connect 3.5mm TRS 3 pole Aux Jack to Aux IN and play any music.
+
+  <img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/aux_input_mode.png" width=440 height=346>
+  
+- Audio output is offered for driving a speaker with amplified music or connecting 3.5mm TRS 3 pole stereo headphones for private listening at Aux OUT.
+
+### Bluetooth Mode
+- To activate Bluetooth Mode, just push the Mode Switch button and release to open.
+- Make sure Module is power ON, if not press and hold Power/Play/Pause button
+  
+  <img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/bluetooth_mode_switch_open.jpeg" width=453 height=262>
+
+- Once module power ON, indicated by Pair LED blinking. Now use your smartphone or any device to pair with breakout. When device active meaning paired, LED will stop blinking.
+
+  <img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/Pairing_device.jpg" width=676 height=370>
+
+- Now, breakout is ready to play your favorite music. This connection is with Bluetooth Classic, but this module also supports simultaneous connections with BLE mode in addition to Classic. Follow the steps below to connect with BLE.
+   
+#### BLE Feature 
+- Bluetooth classic is for high speed data transfer like music play. BLE meant for low power operations.
+- To connect and explore BLE features, download and install Feasyblue app
+   - [Andriod App](https://play.google.com/store/apps/details?id=com.feasycom.feasyblue&hl=en_IN)
+   - [iOS App](https://apps.apple.com/us/app/feasyblue/id1171297423)
+- Provide location permission and then run App. Then select BLE option, device will be listed as shown. Select FSC-BT1026C-LE option.
+
+  <img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/ble_pair.jpg" width="439" height="444">
+
+- With this you can experiment BLE features in more details. Follow below procedure for detail view of activity with Bluetooth module and AT command usage.
+  
 ## UART Data Capture via XCTU/Terminal Software
+- First download and install any serial Terminal software. Here we are using XCTU which you can download from [official site]()
+- 
    
 ## Resources
   * [Schematic](https://github.com/sbcshop/Bluetooth_Breakout_Hardware/blob/main/Design%20Data/SCH%20bluetooth%20bkt.pdf)
