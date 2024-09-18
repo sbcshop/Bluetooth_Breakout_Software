@@ -3,6 +3,7 @@
 
 Introducing the compact Bluetooth Breakout Board, designed for enhanced audio testing and entertainment. This versatile module serves as both an audio input and output, featuring an integrated amplifier circuit with left and right channels, delivering up to 3W per channel for crisp sound. Perfect for developers, it simplifies incorporating Bluetooth wireless technology into designs, making your workflow smoother and more efficient. Ideal for audio testing, development, and various experimental purposes.
 
+This github page contains details and instructions for using Bluetooth Breakout.
 
 ### Features:
 - Bluetooth v5.1 Compliant: Qualified to Bluetooth v5.1 specifications for robust connectivity.
