@@ -127,6 +127,8 @@ This github page contains details and instructions for using Bluetooth Breakout.
   <img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/at_command_packets.jpg" width="" height="">
   <img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/AT_cmd_send.jpg" width="580" height="408">
   <img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/AT_name_changed.jpg" width="694" height="225">
+  <img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/modified_name.jpeg" width="324" height="387">
+  
 - For Details Checkout [Command and Programming Manual](https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/documents/FSC-BT1026_programming_user_guide_2.0.pdf)
   
 ## Resources
