@@ -82,6 +82,9 @@ Introducing the compact Bluetooth Breakout Board, designed for enhanced audio te
 
   <img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/Pairing_device.jpg" width=676 height=370>
 
+  <img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/bluetooth_headphone.jpg" width="400" height="400">
+  <img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/bluetooth_speaker.jpg" width="400" height="400">
+
 - Now, breakout is ready to play your favorite music. This connection is with Bluetooth Classic, but this module also supports simultaneous connections with BLE mode in addition to Classic. Follow the steps below to connect with BLE.
    
 #### BLE Feature 
@@ -107,8 +110,23 @@ Introducing the compact Bluetooth Breakout Board, designed for enhanced audio te
 
   <img src="https://github.com/sbcshop/L76_GPS_Breakout_Software/blob/main/images/xctu_1.jpg" width="600" height="451">
 
-  <img src="https://github.com/sbcshop/L76_GPS_Breakout_Software/blob/main/images/xctu_1.jpg" width="600" height="451">
+  <img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/xctu_device_setting.jpg" width="600" height="451">
   
+- Ongoing music status visible on terminal,
+
+  <img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/music_play_monitor.jpg" width="959" height="508">
+
+- Even you can monitor data sent over BLE, 
+  
+  <img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/ble_msg_app.jpeg" width="216" height="480">
+  <img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/BLE_msg.jpg" width="959" height="508">
+
+- Some AT Command operations, you can directly send AT command or create packets for ease. When creating packets make sure to add 0D and 0A after every command in HEX. Below simple demo for changing advertising name of bluetooth breakout from default FSC-BT1026C to SB_BL_Breakout.
+  
+  <img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/at_command_packets.jpg" width="" height="">
+  <img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/AT_cmd_send.jpg" width="580" height="408">
+  <img src="https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/images/AT_name_changed.jpg" width="694" height="225">
+- For Details Checkout [Command and Programming Manual](https://github.com/sbcshop/Bluetooth_Breakout_Software/blob/main/documents/FSC-BT1026_programming_user_guide_2.0.pdf)
   
 ## Resources
   * [Schematic](https://github.com/sbcshop/Bluetooth_Breakout_Hardware/blob/main/Design%20Data/SCH%20bluetooth%20bkt.pdf)
